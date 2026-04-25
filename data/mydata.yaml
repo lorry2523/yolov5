@@ -1,0 +1,13 @@
+# 1. 训练/验证/测试集的路径 (必须使用 Linux 路径)
+path: /home/asus/datasets
+train: train/images
+val: val/images
+test: test/images
+
+# 2. 类别数量 (改为 2)
+nc: 2
+
+# 3. 类别名称 (更新映射)
+names:
+  0: strain_gauge
+  1: strain_rosette
