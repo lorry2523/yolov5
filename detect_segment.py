@@ -33,7 +33,7 @@ DEVICE = torch.device('cuda') if torch.cuda.is_available() else torch.device('cp
 
 # 可视化设置（汇报用）
 ENABLE_VIS = True            # 是否生成流程可视化图
-NUM_VIS_SAMPLES = 14          # 最多为前几张图像生成可视化
+NUM_VIS_SAMPLES = 0        # 最多为前几张图像生成可视化
 # =================================================
 
 # 读取类别名
